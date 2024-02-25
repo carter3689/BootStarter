@@ -9,7 +9,9 @@
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
-  "overrides": { "@parcel/watcher": "2.1.0" },
+  "overrides": {
+    "@parcel/watcher": "2.1.0"
+  },
   "nuxt": {
     "port": 8080
   },
@@ -17,5 +19,8 @@
     "nuxt": "^3.10.2",
     "vue": "^3.4.19",
     "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.11.4"
   }
 }
