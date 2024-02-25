@@ -6,5 +6,12 @@ export default defineNuxtConfig({
   },
   modules: [
     '@nuxtjs/tailwindcss',
+    '@tailwindcss/forms',
+  ],
+  components: [
+    {
+      path: '~/components',
+      pathPrefix: false
+    }
   ]
 })
