@@ -4,6 +4,12 @@ export default defineNuxtConfig({
   devServer: {
     port: 8000
   },
+  app:{
+    head: {
+      link: [{ rel: 'stylesheet', href:
+    '~/assets/css/style.css' }]
+    }
+  },
   modules: [
     '@nuxtjs/tailwindcss',
     '@tailwindcss/forms',

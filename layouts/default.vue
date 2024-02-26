@@ -26,4 +26,5 @@
 </div>
 <AppStats />
 <AppFeature />
+<AppNews />
   </template>
